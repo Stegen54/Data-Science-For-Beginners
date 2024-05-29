@@ -20,7 +20,7 @@ Source Type: Secondary
 
 ---
 
-2. A smart watch has been collecting heart rate data from its wearer, and the raw data is in JSON format.
+2. A  smart watch has been collecting heart rate data from its wearer, and the raw data is in JSON format.
 
 Structure Type: Semi-Structured
 
