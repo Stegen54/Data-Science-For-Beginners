@@ -20,9 +20,10 @@ Fill in the following table (substitute suggested problem domains for your own o
 
 | Problem Domain | Problem | Which data to collect | How to store the data | Which insights/decisions we can make | 
 |----------------|---------|-----------------------|-----------------------|--------------------------------------|
-| Education | | | | |
-| Vaccination | | | | |
-| Productivity | | | | |
+| Education | In university, we typically have low attendance to lectures, and we have the hypothesis that students who attend lectures on average to better during exams. We want to stimulate attendance and test the hypothesis. | We can track attendance through pictures taken by the security camera in class, or by tracking bluetooth/wifi addresses of student mobile phones in class. Exam data is already available in the university database. | In case we track security camera images - we need to store a few (5-10) photographs during class (unstructured data), and then use AI to identify faces of students (convert data to structured form). | We can compute average attendance data for each student, and see if there is any correlation with exam grades. We will talk more about correlation in [probability and statistics](../../04-stats-and-probability/README.md) section. In order to stimulate student attendance, we can publish the weekly attendance rating on school portal, and draw prizes among those with highest attendance. |
+| Vaccination | Optimizing vaccination distribution and administration, ensuring efficient and effective vaccination of the population. | Data to be collected includes vaccine supply(type of vaccine,quantity,storage locations and expiry dates.) |We can store them in database management systems, like MySQL,Postgres. Cloud storage also. |We can ensure optimization of vaccine distribution,make the vaccine centers more efficient and also monitor vaccine effectiveness. |
+| Productivity |Optimizing processes and outcomes. |Production data is needed. Employee data also.(such as work hours and attendance.)   |The data can be stored in DBMS,cloud storage. |We can identify things that reduce productivity,  also gather insight on employees productivity and it helps in quality control also. |
+
 
 ## Rubric
 
